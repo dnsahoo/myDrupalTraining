@@ -8,5 +8,5 @@
  * - title: A descriptive verb for the link, like 'Read more'.
  */
 function dgd7_more_link($variables) {
- return '<div class="more-link">' . l(t('More'), $variables['url'], array('attributes' => array('title' => $variables['title']))) . '</div>';
+ return '<div class="more">' . l(t('Show me MORE!'), $variables['url'], array('attributes' => array('title' => $variables['title']))) . '</div>';
 }
